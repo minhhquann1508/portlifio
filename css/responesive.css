@@ -1,0 +1,43 @@
+@media screen and (min-width:0) and (max-width:991px) {
+    .navbar-nav {
+        background-color: #fff;
+    }
+    .header .nav-item .nav-link {
+        color: #35a22c !important;
+        transition: all 0.3s ease-in-out;
+    }
+    .header .nav-item .nav-link::after,
+    .nav-item .nav-link.active::after  {
+        width: 0 !important;
+    }
+    .header .nav-item {
+        margin: 0 !important;
+        transition: all 0.3s ease-in-out;
+    }
+    .header .nav-item:hover {
+        background-color: #35a22c;
+    }
+    .nav-item:hover .nav-link {
+        color: #fff !important;
+    }
+    .nav-pills .nav-link {
+        margin: 10px !important;
+        transition: all 0.3s ease-in;
+    }
+    .nav-pills .nav-link:hover {
+        background-color: #35a22c;
+        border: 1px solid #35a22c;
+    }
+}
+@media screen and (min-width:0) and (max-width:767px) {
+    .carousel-caption h5 {
+        font-size: 36px !important;
+        line-height: 1 !important;
+    }
+    .carousel-caption p {
+        font-size: 20px !important;
+    }
+    .carousel-indicators {
+        bottom: 15% !important;
+    }
+}
